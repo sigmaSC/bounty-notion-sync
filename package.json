@@ -1,0 +1,16 @@
+{
+  "name": "bounty-notion-sync",
+  "version": "1.0.0",
+  "description": "Notion template + automation that syncs bounties to a Notion database",
+  "scripts": {
+    "start": "bun run index.ts",
+    "dev": "bun --watch index.ts",
+    "sync": "bun run index.ts"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.15"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
