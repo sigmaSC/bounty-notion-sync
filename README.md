@@ -1,15 +1,17 @@
 # Bounty Notion Sync
 
-Automatically syncs bounties from the [AI Bounty Board](https://bounty.owockibot.xyz) to a Notion database, with status tracking and earnings calculation.
+**Notion template** and automation that provides **auto-sync from API**, **status tracking**, and **earnings calculator** for the AI Bounty Board. Full **setup documentation** included.
 
 ## Features
 
-- **Auto-import** new bounties into your Notion database
-- **Status tracking** - detects and updates claimed/completed changes
-- **Earnings totals** - tracks total USDC earned from completed bounties
-- **Configurable polling** - set your preferred sync interval
-- **@notionhq/client SDK** - official Notion API integration
-- **Persistent state** - remembers which bounties have been synced
+- **Notion template** — complete database schema with all bounty properties (title, reward, status, tags, dates)
+- **Auto-sync from API** — automatically imports new bounties from the bounty board API into Notion
+- **Status tracking** — detects and updates bounty status changes (open → claimed → completed)
+- **Earnings calculator** — computes total USDC earned from completed bounties per wallet
+- **Setup documentation** — step-by-step guide to create integration, configure database, and deploy
+- **Zapier/Make integration** — alternative no-code setup instructions for Zapier and Make (Integromat)
+- **Configurable polling** — set your preferred sync interval
+- **@notionhq/client SDK** — official Notion API integration
 
 ## Quick Start
 
